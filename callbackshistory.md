@@ -34,5 +34,7 @@ for size in training_sizes:
     test_accs.append(model.evaluate(X_test, y_test)[1])
     
 # Plot train vs test accuracies
-plot_results(train_accs, test_accs)
+plot_results(train_accs, test_accs)  
+
+![image](https://user-images.githubusercontent.com/26840831/125189616-1eb8cf80-e263-11eb-98eb-3e8470bea6fc.png)
 
